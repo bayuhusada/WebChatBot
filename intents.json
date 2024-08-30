@@ -14,7 +14,7 @@
       ],
       "responses": [
         "ada yang bisa saya bantu?",
-        "iya ada apa?"
+        "iya ada apa, ada yang bisa saya bantu?"
       ]
     },
     {
@@ -33,7 +33,16 @@
     },
     {
       "tag": "pendaftaran",
-      "patterns": ["Bagaimana cara mendaftar ?", "saya ingin mendaftar", "Dimana saya mendaftar?", "berikan saya link pendaftaran"],
+      "patterns": [
+        "Bagaimana cara mendaftar?",
+        "saya ingin mendaftar",
+        "Dimana saya mendaftar?",
+        "berikan saya link pendaftaran",
+        "pendaftaran",
+        "daftar",
+        "link pendaftaaran"
+      
+      ],
       "responses": [
         "Anda bisa mendaftar melalui situs resmi universitas atau kamu bisa menggunakan link ini ==> https://ucb.ac.id/main/ "]
     },
@@ -43,7 +52,12 @@
         "berapa biaya pendaftaran?",
         "berapa total biaya masuk?",
         "biaya masuk?",
-        "rincian biaya?"
+        "rincian biaya?",
+        "biaya",
+        "total biaya",
+        "berapa biaya",
+        "berapa uang",
+        "uang masuk"
       ],
       "responses": [ 
         "pendaftaran 1 prodi = Rp 200.000, NEO PRO = Rp 500.00, SPI = Rp 4.750.000, SPP = Rp 1.350.000, SISTEM = Rp 100.000, SKS teori = Rp 2.100.000 dan SERAGAM = Rp 800.000 (TOTAL = Rp9.800.000)"
@@ -54,7 +68,11 @@
       "patterns": [
         "Apakah ada tes masuk?",
         "ada tes masuk?",
-        "untuk masuk apakah ada tesnya?"
+        "untuk masuk apakah ada tesnya?",
+        "tes masuk",
+        "tesmasuk",
+        "ujian masuk",
+        "masuk"
       ],
       "responses": [ 
         "YA, Ada tes untuk masuk prodi TI, kamu akan mengetahui tesnya seperti apa ketika mendaftar"
@@ -88,7 +106,10 @@
         "apa ada neo pro untuk mahasiswa baru?",
         "apakah mahasiswa baru akan mengikuti ospek",
         "apakah mahasiswa baru akan mengikuti Neo Pro",
-        "apakah mahasiswa wajib mengikuti ospek?"
+        "apakah mahasiswa wajib mengikuti ospek?",
+        "ospek",
+        "neo pro",
+        "neoPro"
       ],
       "responses": [ 
         "Ya, tapi namanya bukan ospek melainkan neo pro dan WAJIB diikuti."
@@ -99,7 +120,10 @@
       "patterns": [
         "Dimana Tempat neo pro Dilaksanakan?",
         "lantai berapa neo pro dilakukan?",
-        "lantai berapa ospek dilaksanakan?"
+        "lantai berapa ospek dilaksanakan?",
+        "tempat ospek dilakukan",
+        "tempat osepk dilaksanakan",
+        "tempat neo pro dilaksanakan"
       ],
       "responses": [ 
         "Neo Pro Dilaksanakan Di Kampus Universitas Citra Bangsa Tepatnya di Lantai 5"
@@ -110,7 +134,8 @@
       "patterns": [
         "Apakah ada organisasi?",
         "organisasi apa saja yang ada?",
-        "apa ada organisasi yang bisa diikuti?"
+        "apa ada organisasi yang bisa diikuti?",
+        "organisasi"
       ],
       "responses": [ 
         "Ada berbagai macam organisa yang bisa kamu ikuti yaitu PMK, KMK, HMM, VOlY, Futsal, HMPS, Mapala"
@@ -198,8 +223,8 @@
         "apa kode spp",
         "apa kode spi",
         "spi",
-        "spp"
-
+        "spp",
+        "kode byar"
       ],
       "responses": [ 
         "kode pembayaran SPP = 3130 Dan SPI = 3133"
@@ -298,7 +323,8 @@
         "berapa biaya SKS teori?",
         "berapa biaya SKS praktek?",
         "sks teori",
-        "sks praktek"
+        "sks praktek",
+        "sks"
       ],
       "responses": [ 
         "Untuk biaya Praktek sebesar Rp125.000 dan Teori Rp 100.000 permata kuliah jadi kamu bisa akumulasikan dengan jumlah matkul yang kamu ambil "
@@ -310,7 +336,8 @@
       "patterns": [
         "dimana tempat bayar uang  kuliah",
         "dimana bayar uang kulih",
-        "tempat bayar"
+        "tempat bayar",
+        "bayar"
       ],
       "responses": [ 
         "Untuk membayar uang kuliah dan lain-lainya kamu Bisa melalui BANK NTT terdekat atau BANK NTT yang ada di kampus"
@@ -329,6 +356,21 @@
       ],
       "responses": [ 
         "Ya ada didekat kampus yaitu klinik Husada"
+
+    ]
+    },
+    {
+      "tag": "spmb",
+      "patterns": [
+        "info jalur spmb",
+        "jalur spmb",
+        "apa jalur spmb?",
+        "apa jalur spmb di kampus?",
+        "spmb",
+        "seleksi penerimaan mahasiswa baru"
+      ],
+      "responses": [ 
+        "untuk mengetahui informasi terkait SPMB kamu bisa langsung mengunjungin link berikut => https://ucb.siakadcloud.com/spmbfront/jalur-seleksi"
 
     ]
     },
